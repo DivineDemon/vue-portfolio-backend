@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for Portfolio",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "prisma generate && node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivineDemon/portfolio.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB"
+  ],
+  "author": "Mushood Hanif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivineDemon/portfolio/issues"
+  },
+  "homepage": "https://github.com/DivineDemon/portfolio#readme",
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "prisma": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
